@@ -9,59 +9,79 @@
 h1 {
     vertical-align: top;
     font-size: 4rem;
-    background: url("../img/design1_image1.jpg") center no-repeat;
-    min-height: 8vh;
+    background: url("../img/design1_image1.jpg") center;
+    min-height: 25vh;
     padding: 0 0 5rem 0;
 }
 
-header>h2 {
+header {
+    position: relative;
+}
+
+header h2 {
     min-height: 4rem;
     color: white;
     text-align: center;
     font-size: 3rem;
     background: #000;
-    padding: 0.50rem;
+    padding: 1rem;
 }
 
 header img {
     background-color: white;
     width: 10rem;
-    margin: -7.5rem 0 0 80vw;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     border: red solid;
+    display: inline;
+    position: absolute;
+    bottom: -2.33rem;
+    left: 80%;
 }
 
-nav {
-    background-color: rgba(255, 255, 255, 0.474);
-    width: 100%;
+.index {
+    min-height: 100vh;
+    background-image: url("../img/hockey_1.jpg");
+    background-position: center;
 }
 
-nav>a {
+.about {
+    min-height: 100vh;
+    background-image: url("../img/hockey_2.jpg");
+    background-position: 80% 20%;
+}
+
+.contact {
+    min-height: 100vh;
+    background-image: url("../img/hockey_3.jpg");
+    background-position: center;
+}
+
+.navegador {
+    width: 20%;
+    display: inline-block;
+    background-color: rgba(131, 131, 131, 0.521);
+    height: 10rem;
+}
+
+nav a {
     display: block;
     padding: 1rem 2rem;
 }
 
 
-nav>a:hover {
+nav a:hover {
     background-color: white;
 }
 
-main>div,
-main>section {
-    display: inline-block;
+.articulos {
     vertical-align: top;
-    max-width: 85vw;
+    width: 80%;
+    display: inline-block;
+    height: 10rem;
 }
 
-.index,
-.about,
-.contact {
-    max-width: 100%;
-    background-image: url("../img/hockey_1.jpg");
+article, .contactus p{
+    padding: 1rem;
+    background-color:  #838383b7;
 }
 
-article,
-div>p {
-    padding: 1%;
-    background-color: rgba(255, 255, 255, 0.43);
-}
