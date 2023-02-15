@@ -44,25 +44,27 @@ header img {
     min-height: 100vh;
     background-image: url("../img/hockey_1.jpg");
     background-position: center;
+    display: flex;
 }
 
 .about {
     min-height: 100vh;
     background-image: url("../img/hockey_2.jpg");
     background-position: 80% 20%;
+    display: flex;
 }
 
 .contact {
     min-height: 100vh;
     background-image: url("../img/hockey_3.jpg");
     background-position: center;
+    display: flex;
 }
 
 /* Nav */
 .navegador {
     width: 20%;
     display: inline-block;
-    border-right: black solid 1px;
 }
 
 nav a {
@@ -84,49 +86,82 @@ nav a:hover {
     min-height: 10rem;
 }
 
-article, .contactos p{
+article,
+.contactos p {
     padding: 1rem;
-    background-color:  #838383b7;
+    background-color: #838383b7;
 }
 
 .subtitulo {
     padding: 1rem;
-    background-color:  #838383b7;
+    background-color: #838383b7;
     text-align: center;
     font-style: italic;
 }
 
-.reglas>p{
+.reglas>p {
     text-indent: 1rem;
 }
+
+.tabla {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #838383b7;
+}
+
 /* Listas */
-.numerica{
+.numerica {
     list-style: decimal;
     list-style-position: inside;
 }
-.numerica>li::marker, .numerica span {
+
+.numerica>li::marker,
+.numerica span {
     font-weight: bold;
 }
 
-.alfabetica{
+.alfabetica {
     list-style: lower-alpha;
     list-style-position: inside;
 }
 
-.desordenada{
+.desordenada {
     list-style: circle;
     padding-left: 2rem;
 }
 
-/* 
-.tabla {
-    height: 60vh;
+.data {
     display: flex;
-    justify-content: center;
-    background-color: gray;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-th,td{
-    border: #000 2px solid;
-} */
+
+dt {
+    font-weight: bold;
+}
+
+
+/* Tablas */
+caption {
+    text-align: start;
+    font-style: italic;
+    padding: 1rem
+}
+
+caption>p {
+    text-decoration: underline;
+}
+
+th {
+    font-weight: bold;
+    background-color: darkcyan;
+    padding: 1rem;
+}
+
+.fila1 {
+    background-color: rgba(169, 169, 169, 0.63);
+}
