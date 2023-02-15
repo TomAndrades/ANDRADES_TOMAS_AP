@@ -1,3 +1,4 @@
+/* Normalizado */
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+/* Header */
 h1 {
     vertical-align: top;
     font-size: 4rem;
@@ -38,6 +39,7 @@ header img {
     left: 80%;
 }
 
+/* Main */
 .index {
     min-height: 100vh;
     background-image: url("../img/hockey_1.jpg");
@@ -56,16 +58,17 @@ header img {
     background-position: center;
 }
 
+/* Nav */
 .navegador {
     width: 20%;
     display: inline-block;
-    background-color: rgba(131, 131, 131, 0.521);
-    height: 10rem;
+    border-right: black solid 1px;
 }
 
 nav a {
     display: block;
     padding: 1rem 2rem;
+    background-color: rgba(131, 131, 131, 0.521);
 }
 
 
@@ -73,15 +76,57 @@ nav a:hover {
     background-color: white;
 }
 
+/* Body */
 .articulos {
     vertical-align: top;
     width: 80%;
     display: inline-block;
-    height: 10rem;
+    min-height: 10rem;
 }
 
-article, .contactus p{
+article, .contactos p{
     padding: 1rem;
     background-color:  #838383b7;
 }
 
+.subtitulo {
+    padding: 1rem;
+    background-color:  #838383b7;
+    text-align: center;
+    font-style: italic;
+}
+
+.reglas>p{
+    text-indent: 1rem;
+}
+/* Listas */
+.numerica{
+    list-style: decimal;
+    list-style-position: inside;
+}
+.numerica>li::marker, .numerica span {
+    font-weight: bold;
+}
+
+.alfabetica{
+    list-style: lower-alpha;
+    list-style-position: inside;
+}
+
+.desordenada{
+    list-style: circle;
+    padding-left: 2rem;
+}
+
+/* 
+.tabla {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    
+}
+
+th,td{
+    border: #000 2px solid;
+} */
