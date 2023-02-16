@@ -6,6 +6,20 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Media Querys */
+
+@media (max-width:768px) {
+    main {
+        background-color: red;
+    }
+}
+
+@media (max-width:425px) {
+    main {
+        background-color: blue;
+    }
+}
+
 /* Header */
 h1 {
     vertical-align: top;
