@@ -179,3 +179,8 @@ th {
 .fila1 {
     background-color: rgba(169, 169, 169, 0.63);
 }
+
+.formulario {
+    display: flex;
+    background: gray;
+}
