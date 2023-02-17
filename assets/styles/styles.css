@@ -180,7 +180,64 @@ th {
     background-color: rgba(169, 169, 169, 0.63);
 }
 
-.formulario {
+/* Formularios */
+
+.forms {
+    padding-top: 2rem;
+    background-color: rgba(169, 169, 169, 0.63);
+}
+
+.forms button {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.formulario legend,
+.formulario .label {
+    font-weight: bold;
+}
+
+.fs {
+    /* background-color: red; */
     display: flex;
-    background: gray;
+    flex-flow: wrap row;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+}
+
+.fs2 {
+    display: flex;
+    flex-flow: wrap column;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    max-height: 35vh;
+}
+
+.label_50 {
+    /* justify-content: flex-start; */
+    align-items: center;
+    display: flex;
+    /* background-color: cyan; */
+    padding: 0.5rem;
+    width: 50%;
+
+}
+
+.label_100 {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    /* background-color: cyan; */
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.input_100 {
+    display: flex;
+    /* border: #000 solid; */
+    /* background-color: #4b6597; */
+    width: 100%;
 }
