@@ -1,0 +1,266 @@
+/* Normalizado */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Media Querys */
+
+@media (max-width:768px) {
+    main {
+        background-color: red;
+    }
+}
+
+@media (max-width:425px) {
+    main {
+        background-color: blue;
+    }
+}
+
+/* Header */
+h1 {
+    vertical-align: top;
+    font-size: 4rem;
+    background: url("../img/design1_image1.jpg") center;
+    min-height: 25vh;
+    padding: 0 0 5rem 0;
+}
+
+header {
+    position: relative;
+}
+
+header h2 {
+    min-height: 4rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    background: #000;
+    padding: 1rem;
+}
+
+header img {
+    background-color: white;
+    width: 10rem;
+    border-radius: 1rem;
+    border: red solid;
+    display: inline;
+    position: absolute;
+    bottom: -2.33rem;
+    left: 80%;
+}
+
+/* Main */
+.index {
+    min-height: 100vh;
+    background-image: url("../img/hockey_1.jpg");
+    background-position: center;
+    display: flex;
+}
+
+.about {
+    min-height: 100vh;
+    background-image: url("../img/hockey_2.jpg");
+    background-position: 80% 20%;
+    display: flex;
+}
+
+.contact {
+    min-height: 100vh;
+    background-image: url("../img/hockey_3.jpg");
+    background-position: center;
+    display: flex;
+}
+
+/* Nav */
+.navegador {
+    width: 20%;
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: rgba(131, 131, 131, 0.521);
+}
+
+
+nav a:hover {
+    background-color: white;
+}
+
+/* Body */
+.articulos {
+    vertical-align: top;
+    width: 80%;
+    display: inline-block;
+    min-height: 10rem;
+}
+
+article,
+.contactos p {
+    padding: 1rem;
+    background-color: #838383b7;
+}
+
+.subtitulo {
+    padding: 1rem;
+    background-color: #838383b7;
+    text-align: center;
+    font-style: italic;
+}
+
+.reglas>p {
+    text-indent: 1rem;
+}
+
+.tabla {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #838383b7;
+}
+
+/* Listas */
+.numerica {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.numerica>li::marker,
+.numerica span {
+    font-weight: bold;
+}
+
+.alfabetica {
+    list-style: lower-alpha;
+    list-style-position: inside;
+}
+
+.desordenada {
+    list-style: circle;
+    padding-left: 2rem;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions span {
+    font-weight: bold;
+}
+
+.info {
+    width: 100%;
+}
+
+/* Tablas */
+.data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.data>dd {
+    width: 85%;
+
+}
+
+caption {
+    text-align: start;
+    font-style: italic;
+    padding: 1rem
+}
+
+caption>p {
+    text-decoration: underline;
+}
+
+th {
+    font-weight: bold;
+    background-color: darkcyan;
+    padding: 1rem;
+}
+
+.fila1 {
+    background-color: rgba(169, 169, 169, 0.63);
+}
+
+.locations th {
+    width: 10%;
+}
+
+/* Formularios */
+
+.forms {
+    padding-top: 2rem;
+    background-color: rgba(169, 169, 169, 0.63);
+}
+
+.forms button {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.formulario legend,
+.formulario .label {
+    font-weight: bold;
+}
+
+.fs {
+    /* background-color: red; */
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+}
+
+.fs2 {
+    display: flex;
+    flex-flow: wrap column;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    max-height: 35vh;
+}
+
+.label_50 {
+    /* justify-content: flex-start; */
+    align-items: center;
+    display: flex;
+    /* background-color: cyan; */
+    padding: 0.5rem;
+    width: 50%;
+
+}
+
+.label_100 {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    /* background-color: cyan; */
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.input_100 {
+    display: flex;
+    /* border: #000 solid; */
+    /* background-color: #4b6597; */
+    width: 100%;
+}
