@@ -175,12 +175,9 @@ dt {
 }
 
 .data>dd {
-    width: 80%;
+    width: 85%;
 
 }
-
-
-
 
 caption {
     text-align: start;
@@ -200,6 +197,10 @@ th {
 
 .fila1 {
     background-color: rgba(169, 169, 169, 0.63);
+}
+
+.locations th {
+    width: 10%;
 }
 
 /* Formularios */
