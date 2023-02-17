@@ -145,21 +145,43 @@ article,
     padding-left: 2rem;
 }
 
+.questions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions span {
+    font-weight: bold;
+}
+
+.info {
+    width: 100%;
+}
+
+/* Tablas */
 .data {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 1rem;
 }
-
 
 dt {
     font-weight: bold;
 }
 
+.data>dd {
+    width: 80%;
 
-/* Tablas */
+}
+
+
+
+
 caption {
     text-align: start;
     font-style: italic;
