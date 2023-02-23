@@ -264,3 +264,8 @@ th {
     /* background-color: #4b6597; */
     width: 100%;
 }
+
+.rbutton {
+    display: flex;
+    padding: 0rem 1rem;
+}

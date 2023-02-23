@@ -67,50 +67,52 @@
               Birth Date:
               <input type="date" name="bDay" class="input_100" />
             </label>
-            <label class="label_50">
-              Gender:
-              <label>
+
+            <div class="label_50">
+              <p>Gender:</p>
+              <label class="rbutton">
                 <input type="radio" id="Female" name="gender" value="Female" />
                 Female</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" id="Male" name="gender" value="Male" />
                 Male</label
               >
-            </label>
-            <label class="label_100">
-              Grade:
-              <label>
+            </div>
+
+            <div class="label_50">
+              <p>Grade:</p>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="pSchool" value="pSchool" />
                 Pre-School</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="first" value="first" />
                 1st</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="second" value="second" />
                 2nd</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="third" value="third" />
                 3rd</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="fourth" value="fourth" />
                 4th</label
               >
-              <label>
+              <label class="rbutton">
                 <input type="radio" name="grade" id="fifth" value="fifth" />
                 5th</label
               >
-            </label>
+            </div>
           </fieldset>
           <fieldset class="fs">
             <legend>Which elementary school do you live near?</legend>
             <label class="label_100">Choose your School: </label>
             <select class="input_100" name="nearest_school" id="nearest_school">
-              Please, select the school
+              <option value="">Please, select the school</option>
               <option value="Katzenmaier">AJ Katzenmaier</option>
               <option value="Greenbay">Greenbay</option>
               <option value="Yeager">Howard A Yeager</option>
